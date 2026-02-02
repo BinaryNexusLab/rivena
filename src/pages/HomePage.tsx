@@ -23,14 +23,14 @@ export default function HomePage({ onNavigate }: HomePageProps) {
         }
       `}</style>
       <section className="relative h-[85vh] flex items-center justify-center overflow-hidden">
-        <video typewriter-text
+        <video
+          src="/videos/rivena.mp4"
           autoPlay
           muted
           loop
+          playsInline
           className="absolute inset-0 w-full h-full object-cover"
-        >
-          <source src="/src/assets/rivena.mp4" type="video/mp4" />
-        </video>
+        />
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="absolute left-8 md:left-16 top-1/2 transform -translate-y-1/2 z-5">
           <span className="font-serif text-5xl lg:text-[10rem] text-white/20 font-bold leading-none inline-block" style={{textShadow: '0 4px 20px rgba(0, 0, 0, 0.4)', writingMode: 'vertical-rl', transform: 'rotate(180deg)'}}>Rivena</span>
