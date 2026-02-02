@@ -31,6 +31,9 @@ export default function Footer() {
           <p className="text-sm text-warmGray">
             © 2024 Rivena. All rights reserved.
           </p>
+          <p className="text-sm text-warmGray mt-2">
+            <a href="https://binarynexus-lab.pages.dev/" target="_blank" rel="noopener noreferrer">Developed by BinaryNexus Lab</a>   
+          </p>
         </div>
       </div>
     </footer>
